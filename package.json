@@ -1,0 +1,74 @@
+{
+  "name": "vscode-browser-completion",
+  "displayName": "vscode-browser-completion",
+  "version": "0.0.2",
+  "publisher": "voldikss",
+  "description": "Browser word completion source extension for vs-code",
+  "author": {
+    "name": "voldikss",
+    "email": "dyzplus@gmail.com",
+    "url": "https://github.com/voldikss"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.37.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "autocomplete",
+    "intellisense",
+    "code completion",
+    "browser completion"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/voldikss/vscode-browser-completion.git"
+  },
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./lib/index.js",
+  "contributes": {
+    "configuration": [
+      {
+        "title": "vscode-browser-completion configuration",
+        "properties": {
+          "browserCompletion.capacity": {
+            "type": "number",
+            "default": 6,
+            "description": "count of file cache which is used to storage words, 1~10."
+          },
+          "browserCompletion.filetypes": {
+            "type": "array",
+            "default": [
+              "plaintext"
+            ],
+            "description": "Enable browser completion on those filetypes."
+          }
+        }
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "yarn run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "yarn run compile"
+  },
+  "devDependencies": {
+    "@voldikss/tsconfig": "^1.0.0",
+    "@voldikss/tslint-config": "^1.0.0",
+    "@types/glob": "^7.1.1",
+    "@types/mocha": "^5.2.6",
+    "@types/node": "^10.12.21",
+    "@types/vscode": "^1.37.0",
+    "glob": "^7.1.4",
+    "mocha": "^6.1.4",
+    "typescript": "^3.3.1",
+    "tslint": "^5.12.1",
+    "vscode-test": "^1.0.2",
+    "ts-loader": "^6.0.4"
+  }
+}

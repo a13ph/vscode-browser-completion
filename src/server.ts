@@ -37,6 +37,10 @@ export default class Server {
     })
   }
 
+  public async stop(): Promise<void> {
+    // TODO: close server when extension is disposed
+  }
+
   public async saveWords(text: string): Promise<void> {
     const { sourceDir } = this
     const sourcePath = path.join(sourceDir, `${this.counter % this.capacity}.dat`)

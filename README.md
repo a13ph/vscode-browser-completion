@@ -14,17 +14,20 @@ Webpage words completion source for VS Code
 
   That port is used to communicate with browser
 
-- **Install the [browser extension](https://github.com/voldikss/browser-source-provider)**
+- **Install the browser extension**
 
   Browser extension grabs words from web page and send them to local server
 
-- **Install this extension from the [marketplace](https://marketplace.visualstudio.com/VSCode)**
+  - For Google Chrome: [link](https://chrome.google.com/webstore/detail/browser-source-provider/lkaldcfmhailjfcbapicgkdkkamanlml)
+  - For Firefox: [link](https://addons.mozilla.org/firefox/addon/voldikss/)
+
+- **Install this extension from the [marketplace](https://marketplace.visualstudio.com/items?itemName=voldikss.vscode-browser-completion)**
 
 ## Configurations
 
 | Name                          | Default         | Description                                                 |
 | ----------------------------- | --------------- | ----------------------------------------------------------- |
-| `browserCompletion.capacity`  | `6`             | Count of cache files which are used to storage words, 1~10. |
+| `browserCompletion.capacity`  | `5`             | Count of cache files which are used to storage words, 1~10. |
 | `browserCompletion.filetypes` | `['plaintext']` | Enable browser completion for those filetypes.              |
 
 ## Usage
@@ -36,6 +39,10 @@ Words from webpage will be added to completion candidates once you open a new pa
 - [coc-browser](https://github.com/voldikss/coc-browser) Webpage words completion in (Neo)Vim
 
 - [browser-source-provider](https://github.com/voldikss/browser-source-provider) Browser extension used to grab words from webpage
+
+## Credits
+
+<div>Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div>
 
 ## License
 

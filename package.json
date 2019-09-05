@@ -1,9 +1,10 @@
 {
   "name": "vscode-browser-completion",
   "displayName": "vscode-browser-completion",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "voldikss",
   "description": "Browser word completion source extension for vs-code",
+  "icon": "images/icon.png",
   "author": {
     "name": "voldikss",
     "email": "dyzplus@gmail.com",
@@ -70,5 +71,11 @@
     "tslint": "^5.12.1",
     "vscode-test": "^1.0.2",
     "ts-loader": "^6.0.4"
+  },
+  "__metadata": {
+    "id": "aaf7140d-1e1e-4574-9faa-849a9f108c9b",
+    "publisherDisplayName": "Yunzhi Duan",
+    "publisherId": "49c5a1ac-e071-4b82-bd17-ec76a5dac3c6"
   }
 }
+

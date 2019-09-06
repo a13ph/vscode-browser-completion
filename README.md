@@ -44,6 +44,18 @@ Words from webpage will be added to completion candidates once you open a new pa
 
 <div>Icons made by <a href="https://www.flaticon.com/authors/flat-icons" title="Flat Icons">Flat Icons</a> from <a href="https://www.flaticon.com/"             title="Flaticon">www.flaticon.com</a></div>
 
+## Donation
+
+- Paypal
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://paypal.me/voldikss)
+
+- Wechat Pay
+
+<div>
+<img src="https://user-images.githubusercontent.com/20282795/64410950-b3c66c80-d0be-11e9-8500-973382366324.jpg" width=150>
+</div>
+
 ## License
 
 MIT

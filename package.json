@@ -1,7 +1,7 @@
 {
   "name": "vscode-browser-completion",
   "displayName": "vscode-browser-completion",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "publisher": "voldikss",
   "description": "Browser word completion source extension for vs-code",
   "icon": "images/icon.png",

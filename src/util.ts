@@ -48,13 +48,13 @@ export function getCacheDir(): string {
   const platform = process.platform
   switch (platform) {
     case 'win32':
-      cacheDir = path.join(process.env.LOCALAPPDATA || process.env.APPDATA, '{1}', '{0}', 'Cache')
+      cacheDir = path.join(process.env.LOCALAPPDATA || process.env.APPDATA)
       break
     case 'darwin':
-      cacheDir = path.join(process.env.HOME, 'Library', 'Caches', '{0}')
+      cacheDir = path.join(process.env.HOME, 'Library')
       break
     case 'linux':
-      cacheDir = path.join(process.env.HOME, '.cache')
+      cacheDir = path.join(process.env.HOME, '.config')
       break
     default:
       break

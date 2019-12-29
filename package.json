@@ -1,7 +1,7 @@
 {
   "name": "vscode-browser-completion",
   "displayName": "vscode-browser-completion",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "voldikss",
   "description": "Browser word completion source extension for vs-code",
   "icon": "images/icon.png",
@@ -44,7 +44,7 @@
           "browserCompletion.filetypes": {
             "type": "array",
             "default": [
-              "plaintext"
+              "*"
             ],
             "description": "Enable browser completion on those filetypes."
           }
